@@ -19,7 +19,7 @@ public class Combinations {
         int combinationsCount = nChooseK(arr.length, k);
 
         for (int i = 1; i <= combinationsCount; i++) {
-            printIthCombination(new int[] { 1, 2, 3, 4, 5 }, 3, i);
+            printIthCombination(arr, k, i);
         }
     }
 
